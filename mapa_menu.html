@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&family=Catamaran:wght@500&family=Lobster&family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cbc803b2a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos_mapa.css">
+
+    <title>Campus UAEMEX</title>   
+
+</head>
+<body>
+    <header>
+
+        <div>
+            <h1>Campus Universitarios</h1>
+            <select name = "select-campus" id = "select-campus" >
+                <option value="-1">Selecciona el campus</option>
+                <option value="19.131843400853505, -98.78647380376981">Centro Universitario Amecameca</option>
+                <option value="19.77176284563655, -98.77527710017966">Centro Universitario Teotihuacán</option>
+                <option value="18.968268680148476, -99.6122846743277">Centro Universitario Tenancingo</option>
+                <option value="19.19649361749123, -99.5175061270818">Unidad Académica Profesional Tianguistenco</option>
+                <option value="19.196493879532426, -99.51750275467234">Unidad Académica Profesional Tejupilco</option>
+                <option value="19.850606686226648, -99.21644182311293">Unidad Académica Profesional Huehuetoca</option>
+                <option value="19.530306823995115, -99.0899488637991">Unidad Académica Profesional Tlalnepantla</option>
+                <option value="19.29754888068116, -98.95616560890619">Centro Universitario UAEM Valle de Chalco</option>
+                <option value="19.29951555715168, -98.95608790381077">Edificio D Cu Uaem Valle De Chalco</option>
+                <option value="19.044987941830545, -100.05198143629336">Centro Universitario UAEM Temascaltepec</option>
+            </select>
+        </div>      
+    </header>
+
+    <div id="map"></div>
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+    <script src="scrip_mapa.js"></script>
+<footer>
+    <div>
+        <div class="media-icons">
+            <p>Diseño y Visualización de la Información</p>
+            <a href="https://www.facebook.com/UAEMex"><i class= "fab fa-facebook"></i></a>
+            <a href="https://twitter.com/UAEM_MX "target = _blank><i class= "fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/UAEM_MX/"></a><i class= "fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCe8Se89aeErlTzKnwhFkOtQ"><i class= "fab fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
