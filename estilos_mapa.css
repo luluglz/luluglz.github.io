@@ -1,22 +1,30 @@
 /*Agregando para la altura y ancho*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
 #map{
-    height: 90vh;
+    height: 75vh;
     width: 100vw;
 }
 header{
     font-family:"Montserrat";
     color:#FFF;
     background-color: #0b2b09;
-    margin-top:5px;
+    margin-top:10px;
 
 }
-.media-icons{
+.media-icons a:hover{
+    color: #185813;
+    background-color: #fff;
+}
+
+footer{
     font-family:  'Montserrat';
     color: #fff;
     background: #185813;
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 1em;
 }
+
+
+
 
